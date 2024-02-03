@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.testScripts.TC003_RemoveFromCart_Test">
+        <methods>
+          <include name="removeFromCartTest"/>
+          <include name="logoutFromDWS"/>
+          <include name="addToCartTest"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="loginToDWS"/>
+        </methods>
+      </class> <!-- com.testScripts.TC003_RemoveFromCart_Test -->
+      <class name="com.testScripts.TC002_AddToCart_Test">
+        <methods>
+          <include name="logoutFromDWS"/>
+          <include name="addToCartTest"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="loginToDWS"/>
+        </methods>
+      </class> <!-- com.testScripts.TC002_AddToCart_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

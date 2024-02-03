@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-03T13:43:13 IST" name="Default suite" finished-at="2024-02-03T13:43:30 IST" duration-ms="17121">
+    <groups>
+      <group name="smokeTesting">
+        <method signature="TC001_SearchTest.searchTest()[pri:0, instance:com.testScripts.TC001_SearchTest@45752059]" name="searchTest" class="com.testScripts.TC001_SearchTest"/>
+      </group> <!-- smokeTesting -->
+    </groups>
+    <test started-at="2024-02-03T13:43:13 IST" name="Default test" finished-at="2024-02-03T13:43:30 IST" duration-ms="17121">
+      <class name="com.testScripts.TC001_SearchTest">
+        <test-method is-config="true" signature="configureReport()[pri:0, instance:com.testScripts.TC001_SearchTest@45752059]" started-at="2024-02-03T13:43:13 IST" name="configureReport" finished-at="2024-02-03T13:43:13 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReport -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.testScripts.TC001_SearchTest@45752059]" started-at="2024-02-03T13:43:13 IST" name="openBrowser" finished-at="2024-02-03T13:43:23 IST" duration-ms="10532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToDWS(java.lang.reflect.Method)[pri:0, instance:com.testScripts.TC001_SearchTest@45752059]" started-at="2024-02-03T13:43:23 IST" name="loginToDWS" finished-at="2024-02-03T13:43:26 IST" duration-ms="2060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testScripts.TC001_SearchTest.searchTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToDWS -->
+        <test-method signature="searchTest()[pri:0, instance:com.testScripts.TC001_SearchTest@45752059]" started-at="2024-02-03T13:43:26 IST" name="searchTest" finished-at="2024-02-03T13:43:29 IST" duration-ms="3287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="logoutFromDWS()[pri:0, instance:com.testScripts.TC001_SearchTest@45752059]" started-at="2024-02-03T13:43:29 IST" name="logoutFromDWS" finished-at="2024-02-03T13:43:30 IST" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromDWS -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testScripts.TC001_SearchTest@45752059]" started-at="2024-02-03T13:43:30 IST" name="closeBrowser" finished-at="2024-02-03T13:43:30 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="saveReport()[pri:0, instance:com.testScripts.TC001_SearchTest@45752059]" started-at="2024-02-03T13:43:30 IST" name="saveReport" finished-at="2024-02-03T13:43:31 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveReport -->
+      </class> <!-- com.testScripts.TC001_SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

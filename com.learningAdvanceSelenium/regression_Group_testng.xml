@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <groups>
+		  <run>
+			  <include name="regressionTesting"></include>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="com.testScripts.TC001_SearchTest"/>
+      <class name="com.testScripts.TC003_RemoveFromCart_Test"/>
+      <class name="com.testScripts.TC002_AddToCart_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
